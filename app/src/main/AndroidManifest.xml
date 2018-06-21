@@ -8,10 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-
-
-
+        android:theme="@style/MainTheme">
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +16,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    <activity android:name=".MainActivity">
-    </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Computer"
+            android:label="@string/t1"
+            android:theme="@style/ChildTheme"/>
+        <activity android:name=".GK"
+            android:label="@string/t2"
+            android:theme="@style/ChildTheme"/>
+        <activity android:name=".Sport"
+            android:label="@string/t3"
+            android:theme="@style/ChildTheme"/>
+        <activity android:name=".Science"
+            android:label="@string/t4"
+            android:theme="@style/ChildTheme"/>
+        <activity android:name=".Politics"
+            android:label="@string/t5"
+            android:theme="@style/ChildTheme"/>
+        <activity android:name=".Geography"
+            android:label="@string/t6"
+            android:theme="@style/ChildTheme"/>
+        <activity android:name=".GameOfThrones"
+            android:label="@string/t7"
+            android:theme="@style/ChildTheme"/>
+        <activity android:name=".HarryPotter"
+            android:label="@string/t8"
+            android:theme="@style/ChildTheme"/>
+
     </application>
 
 </manifest>
