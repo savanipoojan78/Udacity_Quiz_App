@@ -8,4 +8,34 @@
     <string name="t6">Geography</string>
     <string name="t7">Game Of Thrones</string>
     <string name="t8">Harry Potter</string>
+    <string name="q1">QUESTION 1</string>
+    <string name="q2">QUESTION 2</string>
+    <string name="q3">QUESTION 3</string>
+    <string name="q4">QUESTION 4</string>
+    <string name="q5">QUESTION 5</string>
+    <string name="qC1">Which One Was The First Search Engine on Internet?</string>
+    <string name="qC1A">GOOGLE</string>
+    <string name="qC1B">ARCHIE VIRUS</string>
+    <string name="qC1C">WAIS</string>
+    <string name="qC1D">ALTAVISTA</string>
+    <string name="qC2A">32 BIT</string>
+    <string name="qC2B">64 BIT</string>
+    <string name="qC2C">128 BIT</string>
+    <string name="qC2D">256 BIT</string>
+    <string name="qC3A">RABBIT</string>
+    <string name="qC3B">CREEPER VIRUS</string>
+    <string name="qC3C">ELK CLONER</string>
+    <string name="qC3D">SCA VIRUS</string>
+    <string name="content_q_5">Which of the following are Java keywords?</string>
+    <string name="option_q_5_1">true</string>
+    <string name="option_q_5_2">long</string>
+    <string name="option_q_5_3">static</string>
+    <string name="option_q_5_4">end</string>
+    <string name="your_score_is">Your Score is</string>
+    <string name="make_sure_answer_questions">Please make sure you answer all the questions</string>
+    <string name="qusC2">No of bits used in IPv6?</string>
+    <string name="qusC3">Which is the first Computer Virus?</string>
+    <string name="qusC4">Which programming languages is exclusively used for AL?</string>
+    <string name="qusC5">A dual layer Blue-Ray disk can store data up-to?</string>
+
 </resources>
