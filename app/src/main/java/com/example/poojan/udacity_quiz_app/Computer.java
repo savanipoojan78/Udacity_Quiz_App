@@ -1,6 +1,9 @@
 package com.example.poojan.udacity_quiz_app;
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.ActionBar;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
@@ -36,7 +39,6 @@ public class Computer extends AppCompatActivity {
         q5c=(CheckBox)findViewById(R.id.qc5C);
         q5d=(CheckBox)findViewById(R.id.qc5D);
         ans=(TextView)findViewById(R.id.qc4);
-
         }
     public void onCheckedQuestion1(View view) {
         checked1 = ((RadioButton) view).isChecked();

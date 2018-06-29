@@ -13,6 +13,8 @@
     <string name="q3">QUESTION 3</string>
     <string name="q4">QUESTION 4</string>
     <string name="q5">QUESTION 5</string>
+
+    <!--Computer Quiz Question-->
     <string name="qC1">Which One Was The First Search Engine on Internet?</string>
     <string name="qC1A">GOOGLE</string>
     <string name="qC1B">ARCHIE VIRUS</string>
@@ -37,5 +39,70 @@
     <string name="qusC3">Which is the first Computer Virus?</string>
     <string name="qusC4">Which programming languages is exclusively used for AL?</string>
     <string name="qusC5">A dual layer Blue-Ray disk can store data up-to?</string>
+    <!--General Knowledge Quiz Question-->
+    <string name="qGK1">Entomology is the science that studies?</string>
+    <string name="qGK1A">Behavior of human beings</string>
+    <string name="qGK1B">Insects</string>
+    <!--ans :B-->
+    <string name="qGK1C">The origin and history of technical and scientific terms</string>
+    <string name="qGK1D">The formation of rocks</string>
+    <string name="qGK2">FFC stands for?</string>
+    <string name="qGK2A">Foreign Finance Corporation</string>
+    <string name="qGK2B">Film Finance Corporation</string>
+    <!--ans:B-->
+    <string name="qGK2C">Federation of Football Council</string>
+    <string name="qGK2D">None of the above</string>
+    <string name="qGK3">Guarantee to an exporter that the importer of his goods will pay immediately for the goods ordered by him, is known as</string>
+    <string name="qGK3A">Letter of Credit (L/C)</string>
+    <!--ans:A-->
+    <string name="qGK3B">laissezfaire</string>
+    <string name="qGK3C">inflation</string>
+    <string name="qGK3D">None of the above</string>
+    <string name="qGK4">First China War was fought between?</string>
+    <string name="qGK4A">China and Britain</string>
+    <!--ans:A-->
+    <string name="qGK4B">China and France</string>
+    <string name="qGK4C">China and Egypt</string>
+    <string name="qGK4D">China and Greek</string>
+    <string name="qGK5">Name of the Man Given In the Picture?</string>
+    <string name="qGK5A">Nirbhay Sharma</string>
+    <string name="qGK5B">Keshari Nath Tripathi </string>
+    <string name="qGK5C">Ram Nath Kovind</string>
+    <string name="qGK5D">Balaram Das Tandon</string>
+    <!--Sport Question-->
+    <string name="qS1">Which was the 1st non Test playing country to beat India in an international match?</string>
+    <string name="qS1A">Canada</string>
+    <string name="qS1B">Sri Lanka</string>
+    <string name="qS1C">Zimbabwe</string>
+    <!--ans:B-->
+    <string name="qS1D">East Africa</string>
+    <string name="qS2">Which county did Ravi Shastri play for?</string>
+    <string name="qS2A">Glamorgan</string>
+    <string name="qS2B">Leicestershire</string>
+    <string name="qS2C">Gloucestershire</string>
+    <!--ans:A-->
+    <string name="qS2D">Lancashire</string>
+
+    <string name="qS3">Who was the first Indian to win the World Amateur Billiards title?</string>
+    <string name="qS3A">Geet Sethi</string>
+    <string name="qS3B">Wilson Jones</string>
+    <string name="qS3C">Michael Ferreira</string>
+    <!--ans:B-->
+    <string name="qS3D">Manoj Kothari</string>
+    <string name="qS4">Who is the first Indian woman to win an Asian Games gold in 400m run?</string>
+    <string name="qS4A">M.L.Valsamma</string>
+    <string name="qS4B">P.T.Usha</string>
+    <string name="qS4C">Kamaljit Sandhu</string>
+    <!--ans:C-->
+    <string name="qS4D">K.Malleshwari</string>
+    <string name="qS5">What Is The Name Of the Player Given In the Picture Who is also The Captain of Indian Kabaddi Team?</string>
+    <string name="qS5A">Manjeet Chillar</string>
+    <string name="qS5B">Pardeep Narwal</string>
+    <string name="qS5C">Anup Kumar</string>
+    <!--ans:D-->
+    <string name="qS5D">Ajay Thakur</string>
+
+
+
 
 </resources>
