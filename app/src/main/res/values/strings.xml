@@ -7,7 +7,7 @@
     <string name="t5">Politics</string>
     <string name="t6">Geography</string>
     <string name="t7">Game Of Thrones</string>
-    <string name="t8">Harry Potter</string>
+    <string name="t8">Friends</string>
     <string name="q1">QUESTION 1</string>
     <string name="q2">QUESTION 2</string>
     <string name="q3">QUESTION 3</string>
@@ -69,6 +69,7 @@
     <string name="qGK5B">Keshari Nath Tripathi </string>
     <string name="qGK5C">Ram Nath Kovind</string>
     <string name="qGK5D">Balaram Das Tandon</string>
+
     <!--Sport Question-->
     <string name="qS1">Which was the 1st non Test playing country to beat India in an international match?</string>
     <string name="qS1A">Canada</string>
@@ -102,7 +103,163 @@
     <!--ans:D-->
     <string name="qS5D">Ajay Thakur</string>
 
+    <!--Science Question-->
+    <string name="qSS1">The most electronegative element among the following is</string>
+    <string name="qSS1A">sodium</string>
+    <string name="qSS1B">bromine</string>
+    <string name="qSS1C">fluorine</string>
+    <!--Ans:C-->
+    <string name="qSS1D">oxygen</string>
+    <string name="qSS2">The metallurgical process in which a metal is obtained in a fused state is called</string>
+    <string name="qSS2A">smelting</string>
+    <string name="qSS2B">roasting</string>
+    <string name="qSS2C">calcinations</string>
+    <!--Ans :A-->
+    <string name="qSS2D">froth floatation</string>
+    <string name="qSS3">The law which states that the amount of gas dissolved in a liquid is proportional to its partial pressure is</string>
+    <string name="qSS3A">Dalton\'s law</string>
+    <string name="qSS3B">Gay Lussac\'s law</string>
+    <string name="qSS3C">Henry\'s law</string>
+    <!--Ans:C-->
+    <string name="qSS3D">Raoult\'s law</string>
+    <string name="qSS4">The absorption of ink by blotting paper involves</string>
+    <string name="qSS4A">viscosity of ink</string>
+    <string name="qSS4B">capillary action phenomenon</string>
+    <!--Ans:B-->
+    <string name="qSS4C">diffusion of ink through the blotting</string>
+    <string name="qSS4D">siphon action</string>
+    <string name="qSS5">Mirage is due to</string>
+    <string name="qSS5A">unequal heating of different parts of the atmosphere</string>
+    <string name="qSS5B">magnetic disturbances in the atmosphere</string>
+    <string name="qSS5C">depletion of ozone layer in the atmosphere</string>
+    <!--Ans:A-->
+    <string name="qSS5D">equal heating of different parts of the atmosphere</string>
 
+    <!--Politics Question-->
+    <string name="qP1">The Parliament of India cannot be regarded as a sovereign body because</string>
+    <string name="qP1A">it can legislate only on subjects entrusted to the Centre by the Constitution</string>
+    <string name="qP1B">it has to operate within the limits prescribed by the Constitution</string>
+    <!--Ans:D-->
+    <string name="qP1C">the Supreme Court can declare laws passed by parliament as unconstitutional if they contravene the provisions of the Constitution</string>
+    <string name="qP1D">All of the above</string>
+    <string name="qP2">The members of the Rajya Sabha are elected by</string>
+    <string name="qP2A">the people</string>
+    <string name="qP2B">Lok Sabha</string>
+    <!--Ans:C-->
+    <string name="qP2C">elected members of the legislative assembly</string>
+    <string name="qP2D">elected members of the legislative council</string>
+    <string name="qP3">The members of the panchayat are</string>
+    <string name="qP3A">nominated by the district officer</string>
+    <string name="qP3B">the electorates of the respective territorial constituencies</string>
+    <string name="qP3C">nominated by local self-government minister of the state</string>
+    <!--Ans:B-->
+    <string name="qP3D">nominated by the block development organization</string>
+    <string name="qP4">The power to decide an election petition is vested in the</string>
+    <string name="qP4A">Parliament</string>
+    <string name="qP4B">Supreme Court</string>
+    <string name="qP4C">High courts</string>
+    <!--Ans:C-->
+    <string name="qP4D">Election Commission</string>
+    <string name="qP5">The members of Lok Sabha hold office for a term of</string>
+    <string name="qP5A">4 years</string>
+    <string name="qP5B">5 years</string>
+    <!--Ans:B-->
+    <string name="qP5C">6 years</string>
+    <string name="qP5D">3 years</string>
 
+    <!--Geography Question-->
+    <string name="qG1">The great Victoria Desert is located in</string>
+    <string name="qG1A">Canada</string>
+    <string name="qG1B">West Africa</string>
+    <string name="qG1C">Australia</string>
+    <!--Ans:C-->
+    <string name="qG1D">North America</string>
+    <string name="qG2">The landmass of which of the following continents is the least?</string>
+    <string name="qG2A">Africa</string>
+    <string name="qG2B">Asia</string>
+    <string name="qG2C">Australia</string>
+    <!--Ans:C-->
+    <string name="qG2D">Europe</string>
+    <string name="qG3">The southernmost point of peninsular India, that is, Kanyakumari, is</string>
+    <string name="qG3A">north of Tropic of Cancer</string>
+    <string name="qG3B">south of the Equator</string>
+    <string name="qG3C">south of the Capricorn</string>
+    <!--Ans:D-->
+    <string name="qG3D">north of the Equator</string>
+    <string name="qG4">The Yarlung Zangbo river, in India, is known as</string>
+    <string name="qG4A">Ganga</string>
+    <string name="qG4B">Indus</string>
+    <string name="qG4C">Brahmaputra</string>
+    <!--Ans:C-->
+    <string name="qG4D">Mahanadi</string>
+    <string name="qG5">The Radcliffe line is a boundary between</string>
+    <string name="qG5A">India and Pakistan</string>
+    <string name="qG5B">India and China</string>
+    <!--Ans:A-->
+    <string name="qG5C">India and Myanmar</string>
+    <string name="qG5D">India and Afghanistan</string>
 
+    <!--Game of Thrones Question-->
+    <string name="qGame1">What is the name of Jon Snow\'s Direwolf?</string>
+    <string name="qGame1A">Grey Wind</string>
+    <string name="qGame1B">Graham</string>
+    <string name="qGame1C">Ghost</string>
+    <!--Ans:C-->
+    <string name="qGame1D">Gargamel</string>
+    <string name="qGame2">Name the "other" Stark child: Robb, Brandon, Sansa, Arya. Jon Snow and…?</string>
+    <string name="qGame2A">Rickon</string>
+    <string name="qGame2B">Dickon</string>
+    <!--Ans:A-->
+    <string name="qGame2C">Ramsay</string>
+    <string name="qGame2D">Eddard</string>
+    <string name="qGame3">How is "The Queen Of Thorns" more commonly known?</string>
+    <string name="qGame3A">Cersei Lannister</string>
+    <string name="qGame3B">Margaery Tyrell</string>
+    <string name="qGame3C">Olenna Tyrell</string>
+    <!--Ans:C-->
+    <string name="qGame3D">E Jarvis Thribb</string>
+    <string name="qGame4">And last but not least: Which castle is this?</string>
+    <string name="qGame4A">Casterly Rock</string>
+    <string name="qGame4B">Thurnscoe</string>
+    <!--Ans:C-->
+    <string name="qGame4C">Harrenhal</string>
+    <string name="qGame4D">Shallowhal</string>
+    <string name="qGame5">which family does this sigil belong to?</string>
+    <string name="qGame5A">Arryn</string>
+    <string name="qGame5B">Frey</string>
+    <!--ANs:C-->
+    <string name="qGame5C">Tyrell</string>
+    <string name="qGame5D">Sarandon</string>
+    
+    <!--Friends Question-->
+    <string name="qff1">Which of the following is Ross NOT allergic to?</string>
+    <string name="qff1A">Lobster</string>
+    <string name="qff1B">Bananas</string>
+    <!--Ans:B-->
+    <string name="qff1C">Kiwi</string>
+    <string name="qff1D">Peanuts</string>
+    <string name="qff2">What is Monica\'s biggest pet peeve?</string>
+    <string name="qff2A">Animals dressed as humans</string>
+    <!--Ans:A-->
+    <string name="qff2B">Dirty dishes in the sink</string>
+    <string name="qff2C">When Chandler gets home late</string>
+    <string name="qff2D">Cracking knuckles</string>
+    <string name="qff3">Ross\' bald girlfriend was named:</string>
+    <string name="qff3A">Beth</string>
+    <string name="qff3B">Veronica</string>
+    <string name="qff3C">Vanessa</string>
+    <!--Ans:D-->
+    <string name="qff3D">Bonnie</string>
+    <string name="qff4">What\'s in Monica\'s locked closet?</string>
+    <string name="qff4A">Candy and chocolate</string>
+    <string name="qff4B">Skeletons</string>
+    <string name="qff4C">Cleaning equipment</string>
+    <!--Ans:D-->
+    <string name="qff4D">A whole bunch of junk</string>
+    <string name="qff5">What song does Ross sing to Emma to get her to stop crying?</string>
+    <string name="qff5A">"Thong Song"</string>
+    <string name="qff5B">"Walk This Way"</string>
+    <string name="qff5C">"Sweet Child O'Mine"</string>
+    <!--Ans:D-->
+    <string name="qff5D">"Baby Got Back"</string>
 </resources>

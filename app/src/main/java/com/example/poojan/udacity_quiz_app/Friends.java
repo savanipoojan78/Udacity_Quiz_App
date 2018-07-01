@@ -8,7 +8,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class Politics extends AppCompatActivity {
+public class Friends extends AppCompatActivity {
 
     private double score1, score2, score3, score4, score5, totalScore;
     private boolean checked1, checked2, checked3, checked5,checked4;
@@ -22,7 +22,7 @@ public class Politics extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_politics);
+        setContentView(R.layout.activity_friends);
         q1=(RadioGroup)findViewById(R.id.radiogroup1);
         q2=(RadioGroup)findViewById(R.id.radiogroup2);
         q3=(RadioGroup)findViewById(R.id.radiogroup3);
@@ -40,7 +40,7 @@ public class Politics extends AppCompatActivity {
                 }
             case R.id.qc1B:
                 if (checked1) {
-                    score1 = 0;
+                    score1 = 1;
                     break;
                 }
             case R.id.qc1C:
@@ -50,7 +50,7 @@ public class Politics extends AppCompatActivity {
                 }
             case R.id.qc1D:
                 if (checked1) {
-                    score1 = 1;
+                    score1 = 0;
                     break;
                 }
         }
@@ -61,7 +61,7 @@ public class Politics extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.qc2A:
                 if (checked2) {
-                    score2 = 0;
+                    score2 = 1;
                     break;
                 }
             case R.id.qc2B:
@@ -71,7 +71,7 @@ public class Politics extends AppCompatActivity {
                 }
             case R.id.qc2C:
                 if (checked2) {
-                    score2 = 1;
+                    score2 = 0;
                     break;
                 }
             case R.id.qc2D:
@@ -92,7 +92,7 @@ public class Politics extends AppCompatActivity {
                 }
             case R.id.qc3B:
                 if (checked3) {
-                    score3 = 1;
+                    score3 = 0;
                     break;
                 }
             case R.id.qc3C:
@@ -102,7 +102,7 @@ public class Politics extends AppCompatActivity {
                 }
             case R.id.qc3D:
                 if (checked3) {
-                    score3 = 0;
+                    score3 = 1;
                     break;
                 }
         }
@@ -123,12 +123,12 @@ public class Politics extends AppCompatActivity {
                 }
             case R.id.qGK4C:
                 if (checked3) {
-                    score4 = 1;
+                    score4 = 0;
                     break;
                 }
             case R.id.qGK4D:
                 if (checked3) {
-                    score4 = 0;
+                    score4 = 1;
                     break;
                 }
         }
@@ -144,7 +144,7 @@ public class Politics extends AppCompatActivity {
                 }
             case R.id.qGK5B:
                 if (checked3) {
-                    score5 = 1;
+                    score5 = 0;
                     break;
                 }
             case R.id.qGK5C:
@@ -154,7 +154,7 @@ public class Politics extends AppCompatActivity {
                 }
             case R.id.qGK5D:
                 if (checked3) {
-                    score5 = 0;
+                    score5 = 1;
                     break;
                 }
         }
@@ -192,4 +192,3 @@ public class Politics extends AppCompatActivity {
         radioGroup.clearCheck();
     }
 }
-

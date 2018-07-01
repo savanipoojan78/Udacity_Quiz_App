@@ -17,7 +17,7 @@ ImageView Science;
 ImageView Politics;
 ImageView Geography;
 ImageView GameOfthrones;
-ImageView HarryPotter;
+ImageView Friends;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ ImageView HarryPotter;
         Politics=(ImageView)findViewById(R.id.politics);
         Geography=(ImageView)findViewById(R.id.geography);
         GameOfthrones=(ImageView)findViewById(R.id.got);
-        HarryPotter=(ImageView)findViewById(R.id.harry);
+        Friends=(ImageView)findViewById(R.id.friends);
     }
     void Click()
     {
@@ -93,10 +93,10 @@ ImageView HarryPotter;
                 startActivity(i);
             }
         });
-        HarryPotter.setOnClickListener(new View.OnClickListener() {
+        Friends.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity.this,HarryPotter.class);
+                Intent i=new Intent(MainActivity.this,Friends.class);
                 startActivity(i);
             }
         });

@@ -38,7 +38,7 @@
         <activity android:name=".GameOfThrones"
             android:label="@string/t7"
             android:theme="@style/ChildTheme"/>
-        <activity android:name=".HarryPotter"
+        <activity android:name=".Friends"
             android:label="@string/t8"
             android:theme="@style/ChildTheme"/>
 

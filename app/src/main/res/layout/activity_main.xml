@@ -94,17 +94,17 @@
             android:layout_height="250dp"
             android:padding="5dp"
             android:scaleType="fitXY"
-            android:src="@drawable/got2" />
+            android:src="@drawable/got" />
 
         <ImageView
-            android:id="@+id/harry"
+            android:id="@+id/friends"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:paddingBottom="5dp"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:scaleType="fitXY"
-            android:src="@drawable/hp" />
+            android:src="@drawable/ff" />
 
 
     </LinearLayout>
