@@ -169,7 +169,7 @@ public class GK extends AppCompatActivity {
         if(checked1 && checked2 && checked3 && checked4 && checked5 ) {
 
             totalScore = score1 + score2 + score3 + score4 + score5;
-            String anwser = getString(R.string.your_score_is) + "  " + totalScore;
+            String anwser = getString(R.string.your_score_is) + "  " + totalScore + " Out of 5.";
             Toast.makeText(getApplicationContext(), anwser, Toast.LENGTH_LONG).show();
         }
         else {

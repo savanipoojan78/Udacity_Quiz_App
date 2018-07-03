@@ -262,4 +262,5 @@
     <string name="qff5C">"Sweet Child O'Mine"</string>
     <!--Ans:D-->
     <string name="qff5D">"Baby Got Back"</string>
+    <string name="hint">Enter Your Answer</string>
 </resources>

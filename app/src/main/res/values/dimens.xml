@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="question">22sp</dimen>
+    <dimen name="option">16sp</dimen>
+    <dimen name="q">18sp</dimen>
+</resources>
