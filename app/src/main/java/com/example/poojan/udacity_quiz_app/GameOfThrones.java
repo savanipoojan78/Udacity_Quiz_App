@@ -17,7 +17,11 @@ public class GameOfThrones extends AppCompatActivity {
     RadioGroup q3;
     RadioGroup q4;
     RadioGroup q5;
-
+    RadioButton ans1;
+    RadioButton ans2;
+    RadioButton ans3;
+    RadioButton ans4;
+    RadioButton ans5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,30 @@ public class GameOfThrones extends AppCompatActivity {
         q3=(RadioGroup)findViewById(R.id.radiogroup3);
         q4=(RadioGroup)findViewById(R.id.radiogroup4);
         q5=(RadioGroup)findViewById(R.id.radiogroup5);
+        ans1=(RadioButton)findViewById(R.id.qc1C);
+        ans2=(RadioButton)findViewById(R.id.qc2A);
+        ans3=(RadioButton)findViewById(R.id.qc3C);
+        ans4=(RadioButton)findViewById(R.id.qGK4C);
+        ans5=(RadioButton)findViewById(R.id.qGK5C);
+        if(!ans1.isChecked()){
+            uncheckRadioGroup(q1);
+        }
+        if(!ans2.isChecked())
+        {
+            uncheckRadioGroup(q2);
+        }
+        if(!ans3.isChecked())
+        {
+            uncheckRadioGroup(q3);
+        }
+        if(!ans4.isChecked())
+        {
+            uncheckRadioGroup(q4);
+        }
+        if(!ans4.isChecked())
+        {
+            uncheckRadioGroup(q5);
+        }
 
     }
     public void onCheckedQuestion1(View view) {
@@ -169,6 +197,25 @@ public class GameOfThrones extends AppCompatActivity {
             totalScore = score1 + score2 + score3 + score4 + score5;
             String anwser = getString(R.string.your_score_is) + "  " + totalScore + " Out of 5.";
             Toast.makeText(getApplicationContext(), anwser, Toast.LENGTH_LONG).show();
+            if(!ans1.isChecked()){
+                uncheckRadioGroup(q1);
+            }
+            if(!ans2.isChecked())
+            {
+                uncheckRadioGroup(q2);
+            }
+            if(!ans3.isChecked())
+            {
+                uncheckRadioGroup(q3);
+            }
+            if(!ans4.isChecked())
+            {
+                uncheckRadioGroup(q4);
+            }
+            if(!ans5.isChecked())
+            {
+                uncheckRadioGroup(q5);
+            }
         }
         else {
             Context context = getApplicationContext();

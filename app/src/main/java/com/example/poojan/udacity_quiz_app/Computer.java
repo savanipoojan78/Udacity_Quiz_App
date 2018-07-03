@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -26,6 +27,10 @@ public class Computer extends AppCompatActivity {
     CheckBox q5c;
     CheckBox q5d;
     TextView ans;
+    RadioButton ans1;
+    RadioButton ans2;
+    RadioButton ans3;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +44,10 @@ public class Computer extends AppCompatActivity {
         q5c=(CheckBox)findViewById(R.id.qc5C);
         q5d=(CheckBox)findViewById(R.id.qc5D);
         ans=(TextView)findViewById(R.id.qc4);
+        ans1=(RadioButton)findViewById(R.id.qc1B);
+        ans2=(RadioButton)findViewById(R.id.qc2C);
+        ans3=(RadioButton)findViewById(R.id.qc3B);
+
         }
     public void onCheckedQuestion1(View view) {
         checked1 = ((RadioButton) view).isChecked();
@@ -141,9 +150,30 @@ public class Computer extends AppCompatActivity {
             if(q5c.isChecked()) {
                 score5 += 0.5;
             }
+            if(q5a.isChecked() || q5d.isChecked())
+            {
+                score5 = 0;
+                uncheckCheckBoxes();
+            }
+
             totalScore = score1 + score2 + score3 + score4 + score5;
             String anwser = getString(R.string.your_score_is) + "  " + totalScore + " Out of 5.";
             Toast.makeText(getApplicationContext(), anwser, Toast.LENGTH_LONG).show();
+            if(!ans1.isChecked()){
+                uncheckRadioGroup(q1);
+            }
+            if(!ans2.isChecked())
+            {
+                uncheckRadioGroup(q2);
+            }
+            if(!ans3.isChecked())
+            {
+                uncheckRadioGroup(q3);
+            }
+            if(!anwser4.toLowerCase().equals("prolog"))
+            {
+                ans.setText("");
+            }
         }
         else {
             Context context = getApplicationContext();
@@ -151,6 +181,7 @@ public class Computer extends AppCompatActivity {
             int duration = Toast.LENGTH_SHORT;
             Toast toast = Toast.makeText(context, text, duration);
             toast.show();
+
         }
     }
 
